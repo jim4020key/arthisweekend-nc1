@@ -11,7 +11,7 @@
 		4D5A2D3E2821BA4F004BB6B0 /* LikedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A2D3D2821BA4F004BB6B0 /* LikedView.swift */; };
 		4D5A2D4628225E3F004BB6B0 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A2D4528225E3F004BB6B0 /* SearchView.swift */; };
 		4D6E4066281FB3C900F2C866 /* CombinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E4065281FB3C900F2C866 /* CombinedView.swift */; };
-		4D6E408B28210C6E00F2C866 /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E408A28210C6E00F2C866 /* Museum.swift */; };
+		4D6E408B28210C6E00F2C866 /* Museums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E408A28210C6E00F2C866 /* Museums.swift */; };
 		4D96D61B281A59A200F33285 /* nc1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96D61A281A59A200F33285 /* nc1App.swift */; };
 		4D96D61D281A59A200F33285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96D61C281A59A200F33285 /* ContentView.swift */; };
 		4D96D61F281A59A300F33285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D96D61E281A59A300F33285 /* Assets.xcassets */; };
@@ -19,6 +19,7 @@
 		4D96D629281A59DD00F33285 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96D628281A59DD00F33285 /* CardView.swift */; };
 		4D96D62B281A59E900F33285 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96D62A281A59E900F33285 /* ListView.swift */; };
 		4D96D62D281A753000F33285 /* ShakeGestureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96D62C281A753000F33285 /* ShakeGestureManager.swift */; };
+		4DD735E028A013D900200FD9 /* MuseumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD735DF28A013D900200FD9 /* MuseumModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,7 @@
 		4D5A2D3D2821BA4F004BB6B0 /* LikedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedView.swift; sourceTree = "<group>"; };
 		4D5A2D4528225E3F004BB6B0 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		4D6E4065281FB3C900F2C866 /* CombinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedView.swift; sourceTree = "<group>"; };
-		4D6E408A28210C6E00F2C866 /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		4D6E408A28210C6E00F2C866 /* Museums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museums.swift; sourceTree = "<group>"; };
 		4D96D617281A59A200F33285 /* nc1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nc1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D96D61A281A59A200F33285 /* nc1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nc1App.swift; sourceTree = "<group>"; };
 		4D96D61C281A59A200F33285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +36,7 @@
 		4D96D628281A59DD00F33285 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4D96D62A281A59E900F33285 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		4D96D62C281A753000F33285 /* ShakeGestureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGestureManager.swift; sourceTree = "<group>"; };
+		4DD735DF28A013D900200FD9 /* MuseumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +69,11 @@
 		4D96D619281A59A200F33285 /* nc1 */ = {
 			isa = PBXGroup;
 			children = (
-				4DDEE6872824554A00F70141 /* View */,
+				4DD735E328A0147800200FD9 /* resorces */,
+				4DD735E428A0149100200FD9 /* models */,
+				4DDEE6872824554A00F70141 /* views */,
 				4D96D61A281A59A200F33285 /* nc1App.swift */,
 				4D96D62C281A753000F33285 /* ShakeGestureManager.swift */,
-				4D6E408A28210C6E00F2C866 /* Museum.swift */,
 				4D96D61E281A59A300F33285 /* Assets.xcassets */,
 				4D96D620281A59A300F33285 /* Preview Content */,
 			);
@@ -85,7 +88,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4DDEE6872824554A00F70141 /* View */ = {
+		4DD735E128A0142600200FD9 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E4065281FB3C900F2C866 /* CombinedView.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		4DD735E228A0143100200FD9 /* screen */ = {
 			isa = PBXGroup;
 			children = (
 				4D5A2D4528225E3F004BB6B0 /* SearchView.swift */,
@@ -94,9 +105,33 @@
 				4D96D62A281A59E900F33285 /* ListView.swift */,
 				4D96D628281A59DD00F33285 /* CardView.swift */,
 				4D96D61C281A59A200F33285 /* ContentView.swift */,
-				4D6E4065281FB3C900F2C866 /* CombinedView.swift */,
 			);
-			path = View;
+			path = screen;
+			sourceTree = "<group>";
+		};
+		4DD735E328A0147800200FD9 /* resorces */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E408A28210C6E00F2C866 /* Museums.swift */,
+			);
+			path = resorces;
+			sourceTree = "<group>";
+		};
+		4DD735E428A0149100200FD9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				4DD735DF28A013D900200FD9 /* MuseumModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		4DDEE6872824554A00F70141 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4DD735E128A0142600200FD9 /* navigation */,
+				4DD735E228A0143100200FD9 /* screen */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,11 +209,12 @@
 				4D6E4066281FB3C900F2C866 /* CombinedView.swift in Sources */,
 				4D3B186B281BB3D100BFECCF /* DetailView.swift in Sources */,
 				4D96D61D281A59A200F33285 /* ContentView.swift in Sources */,
+				4DD735E028A013D900200FD9 /* MuseumModel.swift in Sources */,
 				4D96D629281A59DD00F33285 /* CardView.swift in Sources */,
 				4D96D61B281A59A200F33285 /* nc1App.swift in Sources */,
 				4D96D62D281A753000F33285 /* ShakeGestureManager.swift in Sources */,
 				4D5A2D3E2821BA4F004BB6B0 /* LikedView.swift in Sources */,
-				4D6E408B28210C6E00F2C866 /* Museum.swift in Sources */,
+				4D6E408B28210C6E00F2C866 /* Museums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

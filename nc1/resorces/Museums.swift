@@ -7,14 +7,6 @@
 
 import Foundation
 
-struct Museum {
-    let name: String
-    let url: String
-    let loc: String
-    let exhibit: Int
-    let book: Bool
-}
-
 let museums = [
     Museum(
         name: "포항시립미술관",
